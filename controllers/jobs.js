@@ -3,7 +3,7 @@ const {StatusCodes} = require('http-status-codes');
 const {BadRequestError, NotFoundError} = require('../errors');
 
 const getAllJobs = async (req, res) => {
-    const {search, status, jobType, sort} = req.query;
+    const {search, status, jobType, sort, jobLocation} = req.query;
 
     const queryObject = {
         createdBy: req.user.userId,
