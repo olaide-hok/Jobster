@@ -1,4 +1,4 @@
-# Jobster Full Stack Appliction
+# Jobster Full Stack Application
 
 A Fullstack application for users to manage their job search. The API allows users to register, log in, and manage job listings. It includes user authentication using JSON Web Tokens (JWT) and ensures secure access to protected routes.
 
